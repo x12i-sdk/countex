@@ -31,3 +31,20 @@ This is a documentation knowledge SDK. It is installed as a development dependen
 - [Reviewed package source](https://github.com/x12i/countex-mono-repo/tree/6fce5005bf2fc616716315b6f227db792c3a56f1/packages/countex-docs)
 
 The `package.json` in this repository is private to prevent accidental publication of the example application under an npm package name.
+
+## @x12i/countex runtime example
+
+Generic sparse counter matrices for JSON events. Dynamic counting, aggregation, and retrieval from mapped JSON inputs.
+
+Count local JSON events with an application-owned counter map. This example consumes `@x12i/countex@1.8.5`.
+
+```sh
+npm install --ignore-scripts
+npm run example:countex
+```
+
+Source: [`src/countex-example.mjs`](src/countex-example.mjs). The original documentation-package example remains available through `npm start`. Both examples are checked independently.
+
+## Runtime example scope
+
+The runtime consumer uses local synthetic data. It does not invoke a model, connect to MongoDB, or publish a package. Any temporary workspace is created and removed by the example. Documentation and runtime examples have separate commands and are validated separately.

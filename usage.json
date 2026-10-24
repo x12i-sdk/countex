@@ -13,13 +13,31 @@
     "command": "npm start",
     "requiresCredentials": false,
     "validation": "passed",
-    "validatedAt": "2026-10-24T13:01:37.329463+00:00",
+    "validatedAt": "2026-10-24T14:50:32.178594+00:00",
     "isolatedInstallation": true,
     "sourceSha256": "4b8e42bcc563b1c7b88203bf666d18a2f807fb4c4af4a27b8f871d0c0dc4b609",
-    "manifestSha256": "f20dd26a00aa0c753e538725937c6e384bad4a3f42a215e567db5ea59960aa0f"
+    "manifestSha256": "80154e395d3dfb01f2393deeb487620106fd9325d9a10e5881c72530fa7010af"
   },
   "npmPackages": [
     "@x12i/countex-docs"
   ],
-  "publisher": "x12i-publisher[bot]"
+  "publisher": "x12i-publisher[bot]",
+  "additionalExamples": {
+    "@x12i/countex": {
+      "packageVersion": "1.8.5",
+      "title": "Count local JSON events with an application-owned counter map",
+      "entrypoint": "src/countex-example.mjs",
+      "command": "npm run example:countex",
+      "requiresCredentials": false,
+      "validation": "passed",
+      "isolatedInstallation": true,
+      "sourceSha256": "5216e66e3c0351d20312c741f9d3265e42cd939a8a8b11af008d08ecaea51fe5",
+      "manifestSha256": "80154e395d3dfb01f2393deeb487620106fd9325d9a10e5881c72530fa7010af",
+      "validatedAt": "2026-10-24T14:50:32.178594+00:00"
+    }
+  },
+  "validationFiles": {
+    "src/countex-example.mjs": "5216e66e3c0351d20312c741f9d3265e42cd939a8a8b11af008d08ecaea51fe5",
+    "src/index.mjs": "4b8e42bcc563b1c7b88203bf666d18a2f807fb4c4af4a27b8f871d0c0dc4b609"
+  }
 }
