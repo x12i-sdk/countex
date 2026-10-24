@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/countex-docs",
+  "packageVersion": "1.1.2",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/countex-docs",
+  "usageRepository": "https://github.com/x12i-sdk/countex",
+  "sourceRepository": "https://github.com/x12i/countex-mono-repo",
+  "sourceCommit": "6fce5005bf2fc616716315b6f227db792c3a56f1",
+  "sourcePackageDirectory": "packages/countex-docs",
+  "example": {
+    "title": "List the bundled guides and read a use case",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validatedAt": "2026-10-24T13:01:37.329463+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "4b8e42bcc563b1c7b88203bf666d18a2f807fb4c4af4a27b8f871d0c0dc4b609",
+    "manifestSha256": "f20dd26a00aa0c753e538725937c6e384bad4a3f42a215e567db5ea59960aa0f"
+  },
+  "npmPackages": [
+    "@x12i/countex-docs"
+  ],
+  "publisher": "x12i-publisher[bot]"
+}
